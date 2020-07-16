@@ -1,0 +1,354 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Lato;
+	font-size:14px;
+	line-height: 24px;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Lato;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*********************************
+****Global CSS Code Start ********
+**********************************/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.col-md-3{
+	width: 25%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+
+/****************************
+****Global CSS Code End******
+*****************************/
+
+/*header-section start*/
+
+
+.header-section{
+	width: 100%;
+	float: left;
+	background:#ffff;
+}
+.logo {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+.logo .navbar-brand{
+	/*padding: 10px 0px;*/
+}
+
+
+/*header-section end*/
+
+/*Banner section start*/
+
+.banner-section{
+	width: 100%;
+	padding:100px 0px;
+	background:url(../img/Bg.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 80vh;
+}
+
+.banner-inner{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	line-height: 100px;
+	font-weight: 700;
+
+}
+.banner-inner h1 {
+    padding-top: 100px;
+    font-size: 80px;
+    font-family: Yeseva One;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+/*.banner-inner .divider{
+	width: 60%;
+	background: #ee9b01;
+	height: 2px;
+	margin: 0px auto 20px;
+
+}*/
+.banner-inner .design{
+	width: 100%;
+	
+}
+.banner-inner .btn1 {
+    padding: 12px 35px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: lato;
+}
+.banner-inner .btn1:hover{
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	color: blue;
+	transition: .5s;
+}
+.banner-inner .btn2 {
+    padding: 12px 35px;
+    border: 1px solid #ffff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: lato;
+    background: rgb(0,0,0, .8);
+}
+.banner-inner .btn2:hover{
+	border: 1px solid black;
+	background: #ffffff;
+	color: black ;
+	transition: .5s;
+}
+
+/*Banner section end*/
+
+/********section about long start**********/
+.about-section{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-left{
+	width: 100%;
+}
+.about-right{
+	width: 100%;
+}
+.about-inner{
+	width: 80%;
+	margin-top: 30px;
+	padding: 90px 80px;
+
+}
+.about-inner h4 {
+    font-size: 18px;
+    line-height: 54px;
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 60px;
+}
+.about-inner h1{
+	font-size: 18px;
+    line-height: 54px;
+    color: black;
+    font-weight: 600;
+    padding-left: 60px;
+}
+.about-inner p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    padding-left: 60px;
+}
+.about-inner img{
+	padding-left: 60px;
+}
+.about-btm{
+	width: 100%;
+	margin-top: 15px;
+}
+.about-btm p{
+	font-size: 14px;
+	line-height: 24px;
+	color:#000 ;
+	font-weight: 600;
+	
+}
+.about-btm img{
+	margin-right: 15px;
+}
+
+/*section about long end*/
+
+/*featured-section start */
+
+.featured-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+
+}
+.featured-inner{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+
+}
+.featured-inner img{
+	margin-bottom: 20px;
+
+}
+.featured-inner h4{
+	font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+.featured-inner p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 15px;
+    
+}
+/*featured-section end*/
+
+
+/*****************************
+****portfolio section code****
+******************************/
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f9f9f9;
+	position: relative;
+}
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+}
+.portfolio-inner .port-inner{
+	width: 98%;
+	height: 98%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(21,164,250, .6);
+	text-align: center;
+	display: none;
+	transition: 1s;
+}
+.portfolio-inner:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+
+.port-inner ul{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin: 0px 5px;
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #fff; 
+	font-size: 22px;
+}
+.mar{
+	margin-top: 25px;
+}
+
+
+.contact-area{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url(../img/66.png) center top no-repeat;
+	background-size: cover;
+}
+.contact-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+.contact-area p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    margin-bottom: 60px;
+	text-align: center;
+
+}
+.contact-inner{
+	color: #fff;
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.text-right{
+	text-align: right;
+}
+.contact-inner .btn{
+	padding: 10px 25px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-left: 220px;
+}
+
+.contact-inner .btn:hover{
+	border: 1px solid black;
+	background: #ffffff;
+	color: black ;
+	transition: .5s;
+}
+.contact-inner .box{
+	letter-spacing: 2px;
+}
